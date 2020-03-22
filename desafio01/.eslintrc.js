@@ -1,9 +1,11 @@
 module.exports = {
+    
     "env": {
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": 
+    ["airbnb-base", "plugin:prettier/recommended","eslint:recommended"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
